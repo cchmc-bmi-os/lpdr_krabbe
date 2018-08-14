@@ -1,0 +1,201 @@
+ id  |                           concept_name                           | category_id | category_name | parent_cat |          redcap_element          |                 Form Name                 
+-----+------------------------------------------------------------------+-------------+---------------+------------+----------------------------------+-------------------------------------------
+   3 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+ 106 | Stopped Smiling-Onset Age                                        |             |               |            | d_stopped_smiling_age            | section_d_symptoms
+ 107 | Stopped Smiling-Comments                                         |             |               |            | d_stopped_smiling_comments       | section_d_symptoms
+ 109 | Fisted Hand-Onset Age                                            |             |               |            | d_fisted_hand_age                | section_d_symptoms
+ 110 | Fisted Hand-Comments                                             |             |               |            | d_fisted_hand_comments           | section_d_symptoms
+ 111 | Poor Head Control                                                |             |               |            | d_poor_head_control              | section_d_symptoms
+ 112 | Poor Head Control-Onset Age                                      |             |               |            | d_poor_head_control_age          | section_d_symptoms
+ 113 | Poor Head Control-Comments                                       |             |               |            | d_poor_head_control_comments     | section_d_symptoms
+ 114 | Arching                                                          |             |               |            | d_arching                        | section_d_symptoms
+ 115 | Arching-Onset Age                                                |             |               |            | d_arching_age                    | section_d_symptoms
+ 116 | Arching-Comments                                                 |             |               |            | d_arching_comments               | section_d_symptoms
+ 117 | Loss Of Vision                                                   |             |               |            | d_loss_of_vision                 | section_d_symptoms
+ 118 | Loss Of Vision-Onset Age                                         |             |               |            | d_loss_of_vision_age             | section_d_symptoms
+ 119 | Loss Of Vision-Comments                                          |             |               |            | d_loss_of_vision_comments        | section_d_symptoms
+ 120 | Loss Of Hearing                                                  |             |               |            | d_loss_of_hearing                | section_d_symptoms
+ 121 | Loss Of Hearing-Onset Age                                        |             |               |            | d_loss_of_hearing_age            | section_d_symptoms
+ 122 | Loss Of Hearing-Comments                                         |             |               |            | d_loss_of_hearing_comments       | section_d_symptoms
+ 123 | Stumbling                                                        |             |               |            | d_stumbling                      | section_d_symptoms
+ 124 | Stumbling-Onset Age                                              |             |               |            | d_stumbling_age                  | section_d_symptoms
+ 125 | Stumbling-Comments                                               |             |               |            | d_stumbling_comments             | section_d_symptoms
+ 126 | Change In Gait                                                   |             |               |            | d_change_in_gait                 | section_d_symptoms
+ 127 | Change In Gait-Onset Age                                         |             |               |            | d_change_in_gait_age             | section_d_symptoms
+ 128 | Change In Gait-Comments                                          |             |               |            | d_change_in_gait_comments        | section_d_symptoms
+ 129 | Describe The Change                                              |             |               |            | d_change_description             | section_d_symptoms
+ 130 | Unsteady Gait                                                    |             |               |            | d_unsteady_gait                  | section_d_symptoms
+ 131 | Unsteady Gait-Onset Age                                          |             |               |            | d_unsteady_gait_age              | section_d_symptoms
+ 132 | Unsteady Gait-Comments                                           |             |               |            | d_unsteady_gait_comments         | section_d_symptoms
+ 133 | One-Sided Weakness (Hemiparesis)                                 |             |               |            | d_onesided_weakness              | section_d_symptoms
+ 134 | One-Sided Weakness (Hemiparesis)-Onset Age                       |             |               |            | d_onesided_weakness_age          | section_d_symptoms
+ 135 | One-Sided Weakness (Hemiparesis)-Comments                        |             |               |            | d_onesided_weakness_comments     | section_d_symptoms
+ 136 | Seizures                                                         |             |               |            | d_seizures                       | section_d_symptoms
+ 137 | Seizures-Onset Age                                               |             |               |            | d_seizures_age                   | section_d_symptoms
+ 138 | Seizures-Comments                                                |             |               |            | d_seizures_comments              | section_d_symptoms
+ 139 | Describe The Seizures                                            |             |               |            | d_seizure_description            | section_d_symptoms
+ 140 | Loss Of Milestones                                               |             |               |            | d_loss_of_milestones             | section_d_symptoms
+ 141 | Loss Of Milestones-Onset Age                                     |             |               |            | d_loss_of_milestones_age         | section_d_symptoms
+ 142 | Loss Of Milestones-Comments                                      |             |               |            | d_loss_of_milestones_comments    | section_d_symptoms
+ 144 | Apnea (Irregular Breathing)-Onset Age                            |             |               |            | d_apnea_age                      | section_d_symptoms
+ 145 | Apnea (Irregular Breathing)-Comments                             |             |               |            | d_apnea_comments                 | section_d_symptoms
+ 146 | Cardiac Arrhythmias (Irregular Heart Rate)                       |             |               |            | d_cardiac_arrhythmias            | section_d_symptoms
+   1 | Patient Number                                                   |             |               |            | patient_number                   | section_a_demographic_information
+   4 | Patient Number                                                   |             |               |            | patient_number                   | section_a_demographic_information
+   5 | Mother'S Name                                                    |             |               |            | a_mothers_name                   | section_a_demographic_information
+   6 | Father'S Name                                                    |             |               |            | a_fathers_name                   | section_a_demographic_information
+   8 | Guardian'S Name                                                  |             |               |            | a_guardians_name                 | section_a_demographic_information
+   9 | Address                                                          |             |               |            | a_address                        | section_a_demographic_information
+  10 | Phone Number                                                     |             |               |            | a_phone                          | section_a_demographic_information
+  11 | Email                                                            |             |               |            | a_email                          | section_a_demographic_information
+  12 | Patient'S Date Of Birth                                          |             |               |            | a_dob                            | section_a_demographic_information
+  13 | Gender                                                           |             |               |            | a_gender                         | section_a_demographic_information
+  14 | Place Of Birth-State/Province                                    |             |               |            | a_birth_state                    | section_a_demographic_information
+  15 | Place Of Birth-City                                              |             |               |            | a_birth_city                     | section_a_demographic_information
+ 151 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+ 161 | Spinal Tap Results                                               |             |               |            | e_spinal_tap_normal_abnormal     | section_e_tests
+ 162 | Spinal Tap-Age                                                   |             |               |            | e_spinal_tap_age                 | section_e_tests
+ 163 | Spinal Tap-Protein                                               |             |               |            | e_spinal_tap_protein             | section_e_tests
+ 164 | Spinal Tap-Comments                                              |             |               |            | e_spinal_tap_comments            | section_e_tests
+ 165 | Baer                                                             |             |               |            | e_baer                           | section_e_tests
+ 166 | Baer Results                                                     |             |               |            | e_baer_normal_abnormal           | section_e_tests
+ 167 | Baer-Age                                                         |             |               |            | e_baer_age                       | section_e_tests
+ 168 | Baer-Comments                                                    |             |               |            | e_baer_comments                  | section_e_tests
+ 170 | Ver Results                                                      |             |               |            | e_ver_normal_abnormal            | section_e_tests
+   7 | Child'S Name                                                     |             |               |            | a_childs_name                    | section_a_demographic_information
+  60 | Head Circumference Percentile At Time Of Neurologic Exam (In Cm) |             |               |            | c_head_circ_percentile           | section_c_neurologic_exam
+  61 | Weight At Time Of Neurologic Exam (In Kg)                        |             |               |            | c_weight_kg                      | section_c_neurologic_exam
+  62 | Weight Percentile At Time Of Neurologic Exam                     |             |               |            | c_weight_percentile              | section_c_neurologic_exam
+  63 | Height At Time Of Neurologic Exam (In Cm)                        |             |               |            | c_height_cm                      | section_c_neurologic_exam
+  64 | Height Percentile At Time Of Neurologic Exam                     |             |               |            | c_height_percentile              | section_c_neurologic_exam
+  88 | Walk                                                             |             |               |            | c_walk                           | section_c_neurologic_exam
+  89 | Speaking                                                         |             |               |            | c_speaking                       | section_c_neurologic_exam
+  90 | Speaking                                                         |             |               |            | c_speaking                       | section_c_neurologic_exam
+  91 | Date Of Exam                                                     |             |               |            | d_date_of_exam                   | section_d_symptoms
+  92 | Age                                                              |             |               |            | d_age_month                      | section_d_symptoms
+  93 | Crying, Irritability                                             |             |               |            | d_crying_irritability            | section_d_symptoms
+  94 | Crying, Irritability-Onset Age                                   |             |               |            | d_crying_irritability_age        | section_d_symptoms
+  95 | Crying, Irritability-Comments                                    |             |               |            | d_crying_irritability_comments   | section_d_symptoms
+  96 | Poor Feeding                                                     |             |               |            | d_poor_feeding                   | section_d_symptoms
+  97 | Poor Feeding-Onset Age                                           |             |               |            | d_poor_feeding_age               | section_d_symptoms
+  98 | Poor Feeding-Comments                                            |             |               |            | d_poor_feeding_comments          | section_d_symptoms
+  99 | Feeding Tube                                                     |             |               |            | d_feeding_tube                   | section_d_symptoms
+ 100 | Feeding Tube-Onset Age                                           |             |               |            | d_feeding_tube_age               | section_d_symptoms
+ 101 | Feeding Tube-Comments                                            |             |               |            | d_feeding_tube_comments          | section_d_symptoms
+ 102 | Stiffness                                                        |             |               |            | d_stiffness                      | section_d_symptoms
+ 103 | Stiffness-Onset Age                                              |             |               |            | d_stiffness_age                  | section_d_symptoms
+ 104 | Stiffness-Comments                                               |             |               |            | d_stiffness_comments             | section_d_symptoms
+ 105 | Stopped Smiling                                                  |             |               |            | d_stopped_smiling                | section_d_symptoms
+  65 | Neurologic Exam Comments                                         |             |               |            | c_neurologic_exam_comments       | section_c_neurologic_exam
+ 143 | Apnea (Irregular Breathing)                                      |             |               |            | d_apnea                          | section_d_symptoms
+  74 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+  75 | Cranial Nerves                                                   |             |               |            | c_cranial_nerves                 | section_c_neurologic_exam
+  76 | Cranial Nerves                                                   |             |               |            | c_cranial_nerves                 | section_c_neurologic_exam
+  77 | Motor Exam                                                       |             |               |            | c_motor_exam                     | section_c_neurologic_exam
+  78 | Motor Exam                                                       |             |               |            | c_motor_exam                     | section_c_neurologic_exam
+ 108 | Fisted Hand                                                      |             |               |            | d_fisted_hand                    | section_d_symptoms
+  79 | Motor Exam-Decreased Tone                                        |             |               |            | c_motor_decrease_tone            | section_c_neurologic_exam
+  80 | Motor Exam-Decreased Tone                                        |             |               |            | c_motor_decrease_tone            | section_c_neurologic_exam
+  81 | Deep Tendon Reflexes                                             |             |               |            | c_deep_tend_reflx                | section_c_neurologic_exam
+  82 | Deep Tendon Reflexes                                             |             |               |            | c_deep_tend_reflx                | section_c_neurologic_exam
+  83 | Deep Tendon Reflexes-Babinski                                    |             |               |            | c_deep_tend_reflx_babinski       | section_c_neurologic_exam
+  84 | Deep Tendon Reflexes-Babinski                                    |             |               |            | c_deep_tend_reflx_babinski       | section_c_neurologic_exam
+  85 | Gait (1Yr+)                                                      |             |               |            | c_gait                           | section_c_neurologic_exam
+  86 | Gait (1Yr+)                                                      |             |               |            | c_gait                           | section_c_neurologic_exam
+ 171 | Ver-Age                                                          |             |               |            | e_ver_age                        | section_e_tests
+ 172 | Ver-Comments                                                     |             |               |            | e_ver_comments                   | section_e_tests
+ 173 | Nerve Conduction                                                 |             |               |            | e_nerve_conduction               | section_e_tests
+  87 | Walk                                                             |             |               |            | c_walk                           | section_c_neurologic_exam
+ 174 | Nere Conduction Results                                          |             |               |            | e_nerve_conduction_normal_abnorm | section_e_tests
+ 175 | Nerve Conduction-Age                                             |             |               |            | e_nerve_conduction_age           | section_e_tests
+ 176 | Nerve Conduction-Commnets                                        |             |               |            | e_nerve_conduction_comments      | section_e_tests
+ 177 | Eeg                                                              |             |               |            | e_eeg                            | section_e_tests
+ 178 | Eeg Results                                                      |             |               |            | e_eeg_normal_abnormal            | section_e_tests
+ 179 | Eeg-Age                                                          |             |               |            | e_eeg_age                        | section_e_tests
+ 180 | Eeg-Comments                                                     |             |               |            | e_eeg_comments                   | section_e_tests
+ 181 | Ct                                                               |             |               |            | e_ct                             | section_e_tests
+ 182 | Ct Results                                                       |             |               |            | e_ct_normal_abnormal             | section_e_tests
+ 183 | Ct-Age                                                           |             |               |            | e_ct_age                         | section_e_tests
+ 184 | Ct-Comments                                                      |             |               |            | e_ct_comments                    | section_e_tests
+ 185 | Muscle Biospy                                                    |             |               |            | e_muscle_biopsy                  | section_e_tests
+ 186 | Muscle Biopsy Results                                            |             |               |            | e_muscle_biopsy_normal_abnormal  | section_e_tests
+ 187 | Muscle Biopsy-Age                                                |             |               |            | e_muscle_biopsy_age              | section_e_tests
+ 188 | Muscle Biospy-Comments                                           |             |               |            | e_muscle_biopsy_comments         | section_e_tests
+ 189 | Tests Comments                                                   |             |               |            | e_additional_comments            | section_e_tests
+ 190 | Mrs                                                              |             |               |            | e_mrs                            | section_e_tests
+ 191 | Mrs Results                                                      |             |               |            | e_mrs_normal_abnormal            | section_e_tests
+  28 | Demographic Comments                                             |             |               |            | a_comments                       | section_a_demographic_information
+  29 | Phenotype                                                        |             |               |            | a_time_in_life                   | section_a_demographic_information
+  30 | Weight Percentile                                                |             |               |            | a_weight_percentile              | section_a_demographic_information
+  31 | Height Percentile                                                |             |               |            | a_height_percentile              | section_a_demographic_information
+ 192 | Mrs-Age                                                          |             |               |            | e_mrs_age                        | section_e_tests
+ 193 | Mrs-Comments                                                     |             |               |            | e_mrs_comments                   | section_e_tests
+ 194 | Nerve Biopsy                                                     |             |               |            | e_nerve_biopsy                   | section_e_tests
+ 195 | Nerve Biopsy Results                                             |             |               |            | e_nerve_biopsy_normal_abnormal   | section_e_tests
+  16 | Place Of Birth-Country                                           |             |               |            | a_birth_country                  | section_a_demographic_information
+ 169 | Ver                                                              |             |               |            | e_ver                            | section_e_tests
+  17 | Birth Weight-Kg                                                  |             |               |            | a_birth_weight_kg                | section_a_demographic_information
+  18 | Birth Length-Cm                                                  |             |               |            | a_birth_length_cm                | section_a_demographic_information
+  19 | Birth Length-In                                                  |             |               |            | a_birth_length_in                | section_a_demographic_information
+  20 | Full Term                                                        |             |               |            | a_full_term                      | section_a_demographic_information
+  21 | Gestation Age-Wks                                                |             |               |            | a_gestation_age                  | section_a_demographic_information
+  22 | Age Diagnosed-Comments                                           |             |               |            | a_age_diagnosed_comments         | section_a_demographic_information
+  23 | Age Diagnosed-Months                                             |             |               |            | a_age_diagnosed_in_months        | section_a_demographic_information
+  24 | Age Symptoms Appear-Month                                        |             |               |            | a_symp_appear_age_in_months      | section_a_demographic_information
+  25 | Anyone Else Has Krabbe                                           |             |               |            | a_anyone_else_have_krabbe        | section_a_demographic_information
+  26 | Relation                                                         |             |               |            | a_relationship                   | section_a_demographic_information
+  27 | Age Of Onset                                                     |             |               |            | a_sib_age_of_onset               | section_a_demographic_information
+ 196 | Nerve Biopsy-Age                                                 |             |               |            | e_nerve_biopsy_age               | section_e_tests
+ 197 | Nerve Biopsy-Comments                                            |             |               |            | e_nerve_biopsy_comments          | section_e_tests
+ 198 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+ 199 | Was The Child Transplanted?                                      |             |               |            | f_child_transplanted             | section_f_treatment
+ 200 | Was The Child Transplanted Before Or After Symptoms?             |             |               |            | f_child_trans_bf_after_symp      | section_f_treatment
+ 201 | Where                                                            |             |               |            | f_child_transplanted_where       | section_f_treatment
+ 202 | When                                                             |             |               |            | f_child_transplanted_when        | section_f_treatment
+ 203 | Age                                                              |             |               |            | f_transplant_age_months          | section_f_treatment
+ 204 | How Is The Child Now?                                            |             |               |            | f_child_condition_now            | section_f_treatment
+ 205 | Transplant Comments                                              |             |               |            | f_transplant_comments            | section_f_treatment
+ 155 | Mri-Brain-Comments                                               |             |               |            | e_mri_brain_comments             | section_e_tests
+ 156 | Mri-Spine                                                        |             |               |            | e_mri_spine                      | section_e_tests
+ 157 | Mri-Spine Results                                                |             |               |            | e_mri_spine_normal_abnormal      | section_e_tests
+ 158 | Mri-Spine-Age                                                    |             |               |            | e_mri_spine_age                  | section_e_tests
+ 159 | Mri-Spine-Comments                                               |             |               |            | e_mri_spine_comments             | section_e_tests
+ 160 | Spinal Tap                                                       |             |               |            | e_spinal_tap                     | section_e_tests
+  32 | Head Circumference Percentile                                    |             |               |            | a_head_circ_percentile           | section_a_demographic_information
+  34 | Enzyme Level                                                     |             |               |            | b_enzyme_level                   | section_b_enzyme_test_and_gene_sequencing
+  35 | Enzyme Normal-Low                                                |             |               |            | b_enzyme_normal_low              | section_b_enzyme_test_and_gene_sequencing
+  36 | Enzyme Normal-High                                               |             |               |            | b_enzyme_normal_high             | section_b_enzyme_test_and_gene_sequencing
+  37 | Test Location                                                    |             |               |            | b_test_location                  | section_b_enzyme_test_and_gene_sequencing
+  38 | Gene Mutation                                                    |             |               |            | b_gene_mutation                  | section_b_enzyme_test_and_gene_sequencing
+  39 | Mutation 1                                                       |             |               |            | b_mutation_1                     | section_b_enzyme_test_and_gene_sequencing
+  40 | Mutation 2                                                       |             |               |            | b_mutation_2                     | section_b_enzyme_test_and_gene_sequencing
+  41 | Enzyme Test And Gene Sequencing Comments                         |             |               |            | b_comments_1                     | section_b_enzyme_test_and_gene_sequencing
+  42 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+  43 | Visiting Date                                                    |             |               |            | c_visiting_date                  | section_c_neurologic_exam
+ 206 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+ 147 | Cardiac Arrhythmias (Irregular Heart Rate)-Onset Age             |             |               |            | d_cardiac_arrhythmias_age        | section_d_symptoms
+ 148 | Cardiac Arrhythmias (Irregular Heart Rate)-Comments              |             |               |            | d_cardiac_arrhythmias_comments   | section_d_symptoms
+ 149 | Other Symptom                                                    |             |               |            | d_other_symptom                  | section_d_symptoms
+ 150 | Symptoms Comments                                                |             |               |            | d_comments                       | section_d_symptoms
+ 152 | Mri-Brain                                                        |             |               |            | e_mri_brain                      | section_e_tests
+  33 | Record                                                           |             |               |            | record                           | section_a_demographic_information
+ 153 | Mri-Brain Results                                                |             |               |            | e_mri_brain_normal_abnormal      | section_e_tests
+ 154 | Mri-Brain-Age                                                    |             |               |            | e_mri_brain_age                  | section_e_tests
+  44 | Age                                                              |             |               |            | c_age_months                     | section_c_neurologic_exam
+  45 | Development                                                      |             |               |            | c_development                    | section_c_neurologic_exam
+  46 | Specify Abnormal Development                                     |             |               |            | c_abnormal_specify               | section_c_neurologic_exam
+  47 | Cranial Nerves Done                                              |             |               |            | c_cranial_nerves_done            | section_c_neurologic_exam
+  48 | Cranial Nerves-Other, Specify                                    |             |               |            | c_cranial_nerves_other_specify   | section_c_neurologic_exam
+  49 | Motor Exam Done                                                  |             |               |            | c_motor_exam_done                | section_c_neurologic_exam
+  50 | Motor Exam-Increased Tone                                        |             |               |            | c_motor_increase_tone            | section_c_neurologic_exam
+  51 | Motor Exam Comments                                              |             |               |            | c_motor_comments                 | section_c_neurologic_exam
+  52 | Deep Tendon Reflexes Done                                        |             |               |            | c_deep_tend_reflx_done           | section_c_neurologic_exam
+  53 | Deep Tendon Reflexes-Clonus                                      |             |               |            | c_deep_tend_reflx_clonus         | section_c_neurologic_exam
+  54 | Cerebellar (1Yr+)                                                |             |               |            | c_cerebellar                     | section_c_neurologic_exam
+  55 | Sits                                                             |             |               |            | c_sits                           | section_c_neurologic_exam
+  56 | Sits-Age                                                         |             |               |            | c_sits_age_months                | section_c_neurologic_exam
+  57 | Walk-Age                                                         |             |               |            | c_walk_age_months                | section_c_neurologic_exam
+  58 | Speaking-Age                                                     |             |               |            | c_speaking_age_months            | section_c_neurologic_exam
+  59 | Head Circumference At Time Of Neurologic Exam                    |             |               |            | c_head_circ_cm                   | section_c_neurologic_exam
+(197 rows)
+

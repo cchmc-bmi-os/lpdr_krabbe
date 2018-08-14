@@ -1,0 +1,6 @@
+
+alter table krabbe_f_sectionademographicinformation alter column a_gender TYPE integer using a_gender::integer;
+alter table krabbe_f_sectionademographicinformation alter column a_full_term TYPE integer using a_full_term::integer; 
+alter table krabbe_f_sectionademographicinformation alter column a_anyone_else_have_krabbe TYPE integer using a_anyone_else_have_krabbe::integer;
+alter table krabbe_f_sectionademographicinformation alter column a_time_in_life TYPE integer using a_time_in_life::integer;
+alter table krabbe_f_sectionademographicinformation alter column section_a_demographic_information_complete TYPE integer using section_a_demographic_information_complete::integer;

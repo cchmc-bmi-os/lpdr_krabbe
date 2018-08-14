@@ -1,0 +1,30 @@
+#%Module0.1
+## Environment
+
+## Helpers
+proc ModulesHelp { } {
+  puts stderr "This module set the environmnent LPDR on bmialmpdrd2"
+  puts stderr "Module name: [module-info name]"
+}
+module-whatis "Setup the environment LPDR development."
+set curMod [module-info name]
+
+## webapp
+setenv DIR_PRJ "/home/devuser/webapps/harvest_krabbe-env/harvest_inc"
+setenv ACTIVATE_KRABBE "/home/devuser/webapps/harvest_krabbe-env/bin/activate"
+setenv DIR_DATA "/home/devuser/webapps/harvest_inc-env/data"
+
+setenv PROJECT "/home/devuser/webapps/harvest_krabbe-env/harvest_inc"
+setenv INTEGRATION "/home/devuser/webapps/integration/KRABBE_2018_02_05"
+setenv DF "WorldwideKrabbeDisea_DATA_2018-02-05_0610.csv"
+
+setenv DD ""
+setenv DD_JSON_RAW ""
+setenv DD_JSON "krabbe_2017_06_26_dd_clean_updated.json"
+
+setenv MODELS_RAW ""
+
+setenv FIXTURE_RAW "KRABBE_2018-02-05_fixture_raw.json"
+setenv FIXTURE "KRABBE_2018-02-05_fixture.json"
+
+

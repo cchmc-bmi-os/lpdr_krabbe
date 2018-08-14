@@ -1,0 +1,57 @@
+from django.db import models
+from .subjects import *
+
+class SectionETest(models.Model):
+    e_mri_brain = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'MRI-Brain', choices=[(1, u'Yes')])
+    e_mri_brain_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'MRI-Brain Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_mri_brain_age = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'MRI-Brain-Age', blank=True)
+    e_mri_brain_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'MRI-Brain-Comments', blank=True)
+    e_mri_spine = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'MRI-Spine', choices=[(1, u'Yes')])
+    e_mri_spine_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'MRI-Spine Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_mri_spine_age = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'MRI-Spine-Age', blank=True)
+    e_mri_spine_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'MRI-Spine-Comments', blank=True)
+    e_spinal_tap = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Spinal Tap', choices=[(1, u'Yes')])
+    e_spinal_tap_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Spinal Tap Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_spinal_tap_age = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Spinal Tap-Age', blank=True)
+    e_spinal_tap_protein = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Spinal Tap-Protein', blank=True)
+    e_spinal_tap_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Spinal Tap-Comments', blank=True)
+    e_baer = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'BAER', choices=[(1, u'Yes')])
+    e_baer_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'BAER Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_baer_age = models.FloatField(help_text=u'', null=True, max_length=2000, verbose_name=u'BAER-Age', blank=True)
+    e_baer_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'BAER-Comments', blank=True)
+    e_ver = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'VER', choices=[(1, u'Yes')])
+    e_ver_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'VER Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_ver_age = models.FloatField(help_text=u'', null=True, max_length=2000, verbose_name=u'VER-Age', blank=True)
+    e_ver_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'VER-Comments', blank=True)
+    e_nerve_conduction = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Nerve conduction', choices=[(1, u'Yes')])
+    e_nerve_conduction_normal_abnorm = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Nere conduction Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_nerve_conduction_age = models.FloatField(help_text=u'', null=True, max_length=2000, verbose_name=u'Nerve conduction-Age', blank=True)
+    e_nerve_conduction_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Nerve conduction-Commnets', blank=True)
+    e_eeg = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'EEG', choices=[(1, u'Yes')])
+    e_eeg_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'EEG Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_eeg_age = models.FloatField(help_text=u'', null=True, max_length=2000, verbose_name=u'EEG-Age', blank=True)
+    e_eeg_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'EEG-Comments', blank=True)
+    e_ct = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'CT', choices=[(1, u'Yes')])
+    e_ct_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'CT Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_ct_age = models.FloatField(help_text=u'', null=True, max_length=2000, verbose_name=u'CT-Age', blank=True)
+    e_ct_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'CT-Comments', blank=True)
+    e_muscle_biopsy = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Muscle Biospy', choices=[(1, u'Yes')])
+    e_muscle_biopsy_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Muscle Biopsy Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_muscle_biopsy_age = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Muscle Biopsy-Age', blank=True)
+    e_muscle_biopsy_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Muscle Biospy-Comments', blank=True)
+    e_additional_comments = models.TextField(help_text=u'', null=True, verbose_name=u'Tests Comments', blank=True) # This field type is a guess
+    e_mrs = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'MRS', choices=[(1, u'Yes')])
+    e_mrs_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'MRS Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_mrs_age = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'MRS-Age', blank=True)
+    e_mrs_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'MRS-Comments', blank=True)
+    e_nerve_biopsy = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Nerve Biopsy', choices=[(1, u'Yes')])
+    e_nerve_biopsy_normal_abnormal = models.CharField(max_length=2000, blank=True, help_text=u'', null=True, verbose_name=u'Nerve Biopsy Results', choices=[(1, u'Normal'), (2, u'Abnormal'), (3, u'No data'), (4, u'Non-Specific'), (5, u'Borderline')])
+    e_nerve_biopsy_age = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Nerve Biopsy-Age', blank=True)
+    e_nerve_biopsy_comments = models.CharField(help_text=u'', null=True, max_length=2000, verbose_name=u'Nerve Biopsy-Comments', blank=True)
+    section_e_tests_complete = models.CharField(max_length=30, help_text=u'', null=True, verbose_name=u'Tests Section Complete', blank=True, choices=[(0, u'Incomplete'), (1, u'Unverified'), (2, u'Complete')]) # This field type is a guess
+    record = models.IntegerField()
+    subject = models.ForeignKey(Subject, blank=True, null=True)
+
+    class Meta:
+         db_table = 'krabbe_f_sectionetest'
+         app_label = 'krabbe'
